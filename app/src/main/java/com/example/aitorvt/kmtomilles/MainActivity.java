@@ -1,5 +1,6 @@
 package com.example.aitorvt.kmtomilles;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     String skm=edit_km.getText().toString();
     if(!skm.isEmpty()){
         float km =Float.valueOf(skm);
-        float milles=km*1.609f;
+        float milles=km*0.621371f;
         String smilles=Float.toString(milles);
         edit_milles.setText(smilles);
     }
@@ -34,10 +35,18 @@ public class MainActivity extends AppCompatActivity {
         if(!smilles.isEmpty()){
             float milles=Float.valueOf(smilles);
             float km=milles/0.621371f;
-            String skm=Float.toString(milles);
+            String skm=Float.toString(km);
             edit_km.setText(skm);
 
         }
+
+    }
+
+    public void onClickAbout(View view) {
+        Intent intent=new Intent(this,AboutActivity.class);
+        startActivity(intent);
+
+
 
     }
 }
