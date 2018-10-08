@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\aitorvt\\Documents\\GitHub\\Android\\QuizApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-an-rES\\values-an-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aitorvt\\Documents\\GitHub\\Android\\QuizApp\\app\\src\\main\\res\\values-an-rES\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,103",
+                        "endColumns": "44,43",
+                        "endOffsets": "97,142"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,100",
+                        "endColumns": "44,43",
+                        "endOffsets": "95,139"
+                    }
+                }
+            ]
+        }
+    ]
+}
