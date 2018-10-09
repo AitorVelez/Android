@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainUserActivity">
+    tools:context=".UserProfileActivity">
 
     <ImageView
         android:id="@+id/imageViewFondo"
@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="D:\Users\Mi Pc\Desktop\Dispositius\app\src\main\assets\UserProfile-background (1).jpg" />
+        app:srcCompat="C:\Users\aitorvt\Documents\GitHub\Android\UserProfileStarted\app\src\main\assets\UserProfile-background (1).jpg" />
 
     <ImageView
         android:id="@+id/imageViewProfile"
@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="D:\Users\Mi Pc\Desktop\Dispositius\app\src\main\assets\JohnDoe.png" />
+        app:srcCompat="C:\Users\aitorvt\Documents\GitHub\Android\UserProfileStarted\app\src\main\assets\JohnDoe.png" />
 
     <ImageView
         android:id="@+id/imageViewGreyBox"
